@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー — 薬剤師国試ドリル</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.8; margin: 0; padding: 0;
+    color: #1a1a1a; background: #fafafa;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+  header { border-bottom: 2px solid #00796b; padding-bottom: 16px; margin-bottom: 8px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; color: #00796b; }
+  .updated { color: #666; font-size: 0.85rem; }
+  h2 { font-size: 1.15rem; margin-top: 32px; border-left: 4px solid #00796b; padding-left: 10px; }
+  h3 { font-size: 1rem; margin-top: 22px; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.9rem; display: block; overflow-x: auto; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #e6f4f1; }
+  a { color: #00796b; }
+  code { background: rgba(0,0,0,0.06); padding: 1px 5px; border-radius: 4px; font-size: 0.85em; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #ddd; color: #666; font-size: 0.85rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #161616; }
+    h1, h2 { color: #4db6ac; }
+    h2 { border-left-color: #4db6ac; }
+    th { background: #1e2b28; }
+    th, td { border-color: #333; }
+    .updated, footer { color: #999; }
+    code { background: rgba(255,255,255,0.1); }
+    a { color: #4db6ac; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>プライバシーポリシー</h1>
+  <div class="updated">薬剤師国試ドリル（yakuzaishi-drill）／最終更新日: 2026-07-30</div>
+</header>
+
+<p>本アプリ「薬剤師国試ドリル」（以下「本アプリ」）は、薬剤師国家試験の過去問演習を提供するアプリです。本ポリシーは、本アプリが取り扱う情報とその利用について説明します。</p>
+
+<h2>1. 事業者</h2>
+<ul>
+  <li>アプリ名: 薬剤師国試ドリル</li>
+  <li>提供者: Dr. Hac</li>
+  <li>連絡先: <a href="mailto:drhac.jp@gmail.com">drhac.jp@gmail.com</a></li>
+</ul>
+
+<h2>2. 取得する情報</h2>
+<p>本アプリはアカウント登録（氏名・メールアドレス等）を求めません。以下の情報を扱います。</p>
+<table>
+  <thead><tr><th>種別</th><th>内容</th><th>目的</th><th>保存先</th></tr></thead>
+  <tbody>
+    <tr><td>匿名利用者ID</td><td>Firebase Authentication の匿名認証で自動発行される識別子。氏名・メール等の個人情報とは結びつきません。</td><td>解答ログ・投稿の保存者の識別、いいねの重複防止</td><td>Google Firebase</td></tr>
+    <tr><td>解答ログ</td><td>解いた問題ID・正誤・初見かどうか・解答日時</td><td>学習進捗・成績表示の提供</td><td>Google Firebase（Cloud Firestore）</td></tr>
+    <tr><td>投稿コンテンツ（みんなの解説）</td><td>ユーザーが投稿する解説本文、いいね、通報</td><td>学習者どうしの解説共有機能の提供</td><td>Google Firebase（Cloud Firestore）</td></tr>
+    <tr><td>プロフィール・学習グループ</td><td>ご自身で設定する表示名などのプロフィール、参加した学習グループ、グループ内のメッセージ、通報</td><td>友だち紹介・学習グループ機能の提供、通報対応</td><td>Google Firebase（Cloud Firestore）</td></tr>
+    <tr><td>広告関連の識別子・利用状況</td><td>広告配信SDK（Google AdMob）が扱う端末の広告識別子（iOS の IDFA 等）・おおまかな地域・広告の表示/クリック等の利用状況</td><td>無料版での広告表示、不正防止、広告効果の測定</td><td>Google LLC（AdMob）</td></tr>
+    <tr><td>端末内の設定</td><td>ブックマーク、ブロックした投稿者、テーマ色、初回起動日、規約への同意状況</td><td>アプリの動作・表示設定の保持</td><td>お使いの端末内のみ（外部送信しません）</td></tr>
+  </tbody>
+</table>
+<p>本アプリは、氏名・メールアドレス・電話番号・正確な位置情報・連絡先・写真などの個人情報を取得しません。プロフィールの表示名はご自身で自由に決められます（本名の入力は不要です）。</p>
+
+<h3>広告について</h3>
+<p>本アプリの無料版では、初回インストールから2週間（グレース期間）の経過後に、Google AdMob による広告を表示します。AdMob は広告配信・不正防止・効果測定のため、端末の広告識別子（iOS の IDFA 等）や広告の表示・操作といった利用状況を取り扱うことがあります。</p>
+<p>iOS では、アプリ起動時に「トラッキングの許可」（App Tracking Transparency）を確認します。<strong>許可しない場合はあなたに合わせた広告（パーソナライズ広告）を行わず</strong>、広告識別子を用いない広告のみを表示します。いずれの場合も、採点は公式正答のみに基づき、広告は学習機能に影響しません。</p>
+<ul>
+  <li>AdMob のデータ利用: <a href="https://support.google.com/admob/answer/6128543">https://support.google.com/admob/answer/6128543</a></li>
+  <li>端末の設定からトラッキング許可はいつでも変更できます（iOS: 設定 → プライバシーとセキュリティ → トラッキング）。</li>
+</ul>
+
+<h3>課金（App内購入）について</h3>
+<p>広告を非表示にする有料オプション（月額サブスクリプション／買い切り）を提供します。購入手続きと決済は Apple（App Store）が処理し、<strong>本アプリがクレジットカード番号等の決済情報を取得・保存することはありません</strong>。</p>
+
+<h3>AI解説（参考）について</h3>
+<p>各問題に付属する「AI解説（参考）」は、あらかじめ生成されアプリに同梱された静的なコンテンツです。表示のためにユーザーの情報を外部のAIサービスへ送信することはありません。</p>
+
+<h2>3. 情報の利用目的</h2>
+<ul>
+  <li>学習機能（出題・採点・進捗・復習）の提供</li>
+  <li>「みんなの解説」（ユーザー投稿）の表示・共有</li>
+  <li>友だち紹介・学習グループなどソーシャル機能の提供</li>
+  <li>不適切投稿の通報対応、サービスの品質・安全の維持</li>
+  <li>無料版での広告表示、および広告の不正防止・効果測定</li>
+  <li>広告非表示オプション（App内購入）の提供・購入状態の管理</li>
+</ul>
+
+<h2>4. 第三者提供・委託</h2>
+<p>取得した情報は、上記目的の範囲で以下に提供・委託されます。第三者へ販売することはありません。法令に基づく開示要請があった場合を除きます。</p>
+<ul>
+  <li><strong>Google LLC（Firebase）</strong>: 認証・データベースとしての処理の委託（解答ログ・投稿・グループの保存）。</li>
+  <li><strong>Google LLC（AdMob）</strong>: 無料版の広告配信のため、広告識別子・利用状況を提供します。</li>
+  <li><strong>Apple（App Store）</strong>: App内購入の決済処理。</li>
+</ul>
+
+<h2>5. データの保存場所</h2>
+<p>データは Google Cloud（Cloud Firestore、<code>asia-northeast1</code>＝アジア北東〈東京〉リージョン）に保存されます。ブックマーク・ブロック一覧・テーマ設定などはお使いの端末内にのみ保存します。</p>
+
+<h2>6. ユーザーの権利・削除</h2>
+<ul>
+  <li>自分が投稿した「みんなの解説」は、アプリ内からいつでも削除（取り下げ）できます。</li>
+  <li>他のユーザーの投稿は、アプリ内で「非表示（ブロック）」でき、設定の「ブロックした投稿者」からいつでも解除できます。ブロック一覧は端末内にのみ保存され、外部に送信されません。</li>
+  <li>不適切な投稿・プロフィール・グループ内メッセージは、アプリ内から通報できます。</li>
+  <li>解答ログ・匿名IDの削除をご希望の場合は、上記連絡先までご連絡ください。匿名IDに紐づくデータを削除します。</li>
+</ul>
+
+<h2>7. 子どものプライバシー</h2>
+<p>本アプリは薬剤師を目指す学習者を対象とし、児童を主たる対象としていません。個人を特定する情報を収集しません。</p>
+
+<h2>8. 免責</h2>
+<p>「みんなの解説」はユーザー投稿、「AI解説（参考）」はAIが生成した参考情報であり、内容の正確性を保証しません。採点は厚生労働省が公開する公式の正答のみに基づき、ユーザー投稿・AI解説は採点結果に影響しません。法規・制度に関する内容は出題当時の法令に基づくため、現行の規定と異なる場合があります。医療・調剤の実務上の判断は、必ず添付文書・日本薬局方・各種ガイドラインなどの一次資料でご確認ください。</p>
+
+<h2>9. 改定</h2>
+<p>本ポリシーは必要に応じて改定します。重要な変更はアプリ内またはこのページで告知します。</p>
+
+<footer>
+  © 2026 Dr. Hac<br>
+  <a href="index.html">サポート・お問い合わせページ</a>
+</footer>
+</div>
+</body>
+</html>
